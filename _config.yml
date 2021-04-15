@@ -58,7 +58,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Robel Campbell"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Reverse Engineer, Exploit Developer | OSWE,OSCE,OSCP,GREM "
   links:
