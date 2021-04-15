@@ -68,6 +68,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/x0rb3l"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:robel.y.campbell@gmail.com
 
 footer:
   links:
@@ -77,6 +80,7 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/x0rb3l"
+    
 
 defaults:
   # _posts
