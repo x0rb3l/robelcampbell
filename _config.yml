@@ -60,10 +60,10 @@ plugins:
 author:
   name   : "Robel Campbell"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Reverse Engineer, Exploit Developer | OSWE,OSCE,OSCP,GREM "
+  bio    : "Reverse Engineer, Exploit Developer\nOSWE,OSCE,OSCP,GREM"
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/robelcampbell"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -72,7 +72,7 @@ author:
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/robelcampbell"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
