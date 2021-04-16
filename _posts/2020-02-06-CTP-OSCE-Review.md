@@ -15,7 +15,7 @@ Let me start by thanking my wife for putting up with my obsession with all these
 
 I will not start this off with a review of the course work, there's plenty of articles that do that already. Rather I will provide a list of blog posts that were extremely helpful to me while studying:
 
-https://jhalon.github.io/OSCE-Review/ (The resources at the bottom of this blog were the best for practicing. Make sure you do it ALL, several times....until you are a Jedi Knight.)
+link:https://jhalon.github.io/OSCE-Review/ (The resources at the bottom of this blog were the best for practicing. Make sure you do it ALL, several times....until you are a Jedi Knight.)
 
 https://www.rcesecurity.com/2017/08/from-lfi-to-rce-via-php-sessions/
 
