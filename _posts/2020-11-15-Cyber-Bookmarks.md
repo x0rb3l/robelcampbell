@@ -1,3 +1,19 @@
+---
+title: "Cyber Bookmarks"
+excerpt_separator: "<!--more-->"
+categories:
+  - Blog
+tags:
+  - resources
+  - links
+  - cyber
+  - penetration testing
+  - malware
+  - reverse engineering
+  - exploit development
+  - help
+---
+
 A list of bookmarks I have used since I started my journey in cyber security.
 
 *NOTE: Some links may be broken or out of place.*
