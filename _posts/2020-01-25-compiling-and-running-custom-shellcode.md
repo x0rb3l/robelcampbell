@@ -6,8 +6,7 @@ categories:
 tags:
   - exploit development
 ---
-
-![](https://media-exp1.licdn.com/dms/image/C4E12AQG-nZczAkJF0w/article-cover_image-shrink_423_752/0/1580009718755?e=1623888000&v=beta&t=BXEaYRoS7f07MBGSWoZqLQi42tWFkPohkgNY7_-7ffM)
+![image](https://user-images.githubusercontent.com/29740744/114959112-61206b00-9e32-11eb-8285-37bce2973f5b.png)
 
 While studying for the Offensive Security Certified Expert (OSCE), I took some time to practice writing custom shellcode and read up on how certain Windows API calls can be leveraged to execute your shellcode. I wanted to take it a step further and actually run my shellcode as a stand-alone binary apart from running it in an exploit for debugging purposes.
 
@@ -15,7 +14,7 @@ This post aims to provide a quick overview of my findings and perhaps help other
 
 In this particular example, I used the system() function found in Windows msvcrt.dll. You can read more about that [here](http://www.gosecure.it/blog/art/452/sec/create-a-custom-shellcode-using-system-function/). The shellcode I chose to run creates a new user and adds them to the administrator's group. Below is the breakdown of the shellcode.
 
-![No alt text provided for this image](https://media-exp1.licdn.com/dms/image/C4E12AQFGukOblq6W-g/article-inline_image-shrink_1000_1488/0/1580004107306?e=1623888000&v=beta&t=kuWjkSCWVlEUnzS74Wy7eV8I-3yNhwRT-t129G9sVNM)
+![image](https://user-images.githubusercontent.com/29740744/114959164-7c8b7600-9e32-11eb-8ba8-52ad43add435.png)
 
 For the sake of brevity, I won't go into detail about how I came up with this shellcode. There are plenty of resources that cover custom shell coding. [This](https://www.fuzzysecurity.com/tutorials/expDev/6.html) post helped me quite a bit.
 
@@ -62,15 +61,15 @@ int main()
 
 Pretty straight forward up until this point right? All I needed to do now was compile this into a PE file and I'm good. Upon compiling this code in Visual Studio 2019, everything was successful up until running it on Windows 7...
 
-![No alt text provided for this image](https://media-exp1.licdn.com/dms/image/C4E12AQGarq9DOXLKoA/article-inline_image-shrink_1000_1488/0/1580072974160?e=1623888000&v=beta&t=MFP80SWq-XfsR2x7Pf2wAcVEo1TY1NIAJQmU9FvuBuo)
+![image](https://user-images.githubusercontent.com/29740744/114959200-93ca6380-9e32-11eb-9f9f-9e62b056bdf2.png)
 
 Naturally, I ran the binary in a debugger to see what was going on. There were two things I discovered. First, there was an access violation once the program reached the beginning of my shellcode routine.
 
-![No alt text provided for this image](https://media-exp1.licdn.com/dms/image/C4E12AQFNRKM2h8Lihw/article-inline_image-shrink_1000_1488/0/1580005546938?e=1623888000&v=beta&t=WDOJamt6hHAEtXtKIHIdYWIl1yBtqijw0vgiPkfA2Tw)
+![image](https://user-images.githubusercontent.com/29740744/114959215-9c229e80-9e32-11eb-9319-689685595608.png)
 
 This was easily fixed by modifying the .data section of the PE file to be executable. The next issue lies in the call to the system() function. Even if you have the correct address of where system() is located in memory, in this case, 0x7596B177 (NOTE: This address will change from boot to boot due to ASLR), the program crashes because the memory does not exist within the program. Why? Checking the imported modules reveals that msvcrt.dll is not loaded.
 
-![No alt text provided for this image](https://media-exp1.licdn.com/dms/image/C4E12AQEhDNZeeMpY7g/article-inline_image-shrink_1000_1488/0/1580006035757?e=1623888000&v=beta&t=LwSPoS0pa1gkE-fIPMrLT5MOahGphw_eOZRkk0nBxIU)
+![image](https://user-images.githubusercontent.com/29740744/114959247-a8a6f700-9e32-11eb-8218-2d8592b3135a.png)
 
 Remember, the system() function resides within msvcrt.dll. If it isn't loaded when the program is running, it cannot locate the pointer to system() in memory. I am not entirely sure why Visual Studio did not include the .DLL but my guess would have something to do with outdated and/or somewhat obsolete .DLLs.
 
@@ -82,17 +81,17 @@ C:\\MinGW\\bin>mingw32-gcc.exe addUser.c -o adduser.exe
 
 After opening the binary in a debugger, I can see that this time msvcrt.dll was imported.
 
-![No alt text provided for this image](https://media-exp1.licdn.com/dms/image/C4E12AQEJfUTmpQT3Ug/article-inline_image-shrink_1000_1488/0/1580006787863?e=1623888000&v=beta&t=S0YppN1yqPCBugVkJX2AP6eZ2uROs9N3fQysiyOjAGU)
+![image](https://user-images.githubusercontent.com/29740744/114959269-b65c7c80-9e32-11eb-8275-71e95e2b9a91.png)
 
 Setting a breakpoint on the address of system() in msvcrt.dll (again, this varies from boot to boot) I ran my program and examined the call stack when it hit the breakpoint. As expected, just before a function call was made to system(), Olly Dbg recognized the memory location of system() and the pointer address was successfully added to the EBX register.
 
 (0040407D   MOV EBX, msvcrt.system)
 
-![No alt text provided for this image](https://media-exp1.licdn.com/dms/image/C4E12AQEls0YMpEyCEg/article-inline_image-shrink_1000_1488/0/1580007765302?e=1623888000&v=beta&t=Ios6_FsBz8yCwlVkkdT-EsqEpFMTJpMCsT2AP9qXj8E)
+![image](https://user-images.githubusercontent.com/29740744/114959285-be1c2100-9e32-11eb-8d34-6f6b7470f814.png)
 
 Once I let the program continue to run, the user, robel, was created and added to the administrator's group as expected.
 
-![No alt text provided for this image](https://media-exp1.licdn.com/dms/image/C4E12AQH134cXseZKcg/article-inline_image-shrink_1000_1488/0/1580008160466?e=1623888000&v=beta&t=Km2NPjq1m_HRQjK5EZ4mRr2nWnW9Uh_s6NkaORRMggw)
+![image](https://user-images.githubusercontent.com/29740744/114959294-c4120200-9e32-11eb-867f-feba62bbaa33.png)
 
 Notice that the program still crashes. I imagine it is due to a lack of an exit() function after my routine runs but I will save that for another time.
 
