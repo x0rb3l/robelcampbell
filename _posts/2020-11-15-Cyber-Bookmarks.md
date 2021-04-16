@@ -2,7 +2,7 @@
 title: "Cyber Bookmarks"
 excerpt_separator: "<!--more-->"
 categories:
-  - Blog
+  - Resources
 tags:
   - resources
   - links
