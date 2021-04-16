@@ -15,13 +15,13 @@ Let me start by thanking my wife for putting up with my obsession with all these
 
 I will not start this off with a review of the course work, there's plenty of articles that do that already. Rather I will provide a list of blog posts that were extremely helpful to me while studying:
 
-link:https://jhalon.github.io/OSCE-Review/ (The resources at the bottom of this blog were the best for practicing. Make sure you do it ALL, several times....until you are a Jedi Knight.)
+[Jhalon OSCE Review](https://jhalon.github.io/OSCE-Review/) (The resources at the bottom of this blog were the best for practicing. Make sure you do it ALL, several times....until you are a Jedi Knight.)
 
-https://www.rcesecurity.com/2017/08/from-lfi-to-rce-via-php-sessions/
+[From LFI to RCE via PHP Sessions](https://www.rcesecurity.com/2017/08/from-lfi-to-rce-via-php-sessions/)
 
-https://www.linkedin.com/redir/general-malware-page?url=https%3A%2F%2Fdl%2epacketstormsecurity%2enet%2Fpapers%2Fvirus%2FTaking_Back_Netcat%2epdf
+[Taking Back Netcat](https://www.linkedin.com/redir/general-malware-page?url=https%3A%2F%2Fdl%2epacketstormsecurity%2enet%2Fpapers%2Fvirus%2FTaking_Back_Netcat%2epdf)
 
-https://h0mbre.github.io/page4/ (Specifically the Vulnserver LTER exploit but this blog has several good writeups for Vulnserver and a couple of Exploit-DB proofs-of-concept.)
+[H0mbre Blog](https://h0mbre.github.io/page4/) (Specifically the Vulnserver LTER exploit but this blog has several good writeups for Vulnserver and a couple of Exploit-DB proofs-of-concept.)
 
 If you have taken the OSCP, then you know that in typical Offsec fashion the course materials are not enough to pass the exam. It is only a foundation for further study. Do not just follow a blog post step by step but understand every step as much as possible. I did all the Vulnserver exploits and the different variations until I was popping calc.exe in my sleep. When something didn't work, I made sure I knew why. When something did work, I made sure I knew why. Become very comfortable with each concept...there is no way around it.
 
