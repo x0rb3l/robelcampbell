@@ -164,7 +164,7 @@ A list of bookmarks I have used since I started my journey in cyber security.
 
 [Fuzzy Security Exploit Writing Series](http://www.fuzzysecurity.com/tutorials.html)
 
-#### ARM)
+#### ARM
 
 [zygosec](https://zygosec.com/products.html)
 [Billy Ellis Exploit Challenges](https://github.com/Billy-Ellis/Exploit-Challenges)
@@ -176,7 +176,7 @@ A list of bookmarks I have used since I started my journey in cyber security.
 [Bananamafia - ROP Arm 1](https://bananamafia.dev/post/rop-arm-1/)
 [ARM Exploitation PDF](https://doc.lagout.org/security/XXXX_ARM_exploitation.pdf)
 
-#### OSCE)
+#### OSCE
 
 [jhalon OSCE Review](https://jhalon.github.io/OSCE-Review/)
 [Tulpa Security](https://tulpa-security.com/2017/07/18/288/)
@@ -194,7 +194,7 @@ A list of bookmarks I have used since I started my journey in cyber security.
 
 [Linux Kernel Exploitation](https://github.com/xairy/linux-kernel-exploitation)
 
-#### OSEE)
+#### OSEE
 
 [Offsec - Advance Windows Exploitation](https://www.offensive-security.com/documentation/advanced-windows-exploitation.pdf)
 [timip - OSEE prep](https://github.com/timip/OSEE)
@@ -202,7 +202,7 @@ A list of bookmarks I have used since I started my journey in cyber security.
 [rootkits - kernel setting up](https://rootkits.xyz/blog/2017/06/kernel-setting-up/)
 [abatch.com - tutorials](https://www.abatchy.com/tutorials)
 
-#### IoTHardware)
+#### IoTHardware
 
 [Tacnetsol](https://www.tacnetsol.com/iotonline?__s=0hqr1s7is8ug9mei1ycr&utm_source=drip&utm_medium=email&utm_campaign=IoT+Firmware+Exploitation+Launch+-+Part+2&utm_content=%5BTNS%5D+Registration+is+now+open)
 
