@@ -22,7 +22,7 @@ A list of bookmarks I have used since I started my journey in cyber security.
 
 #### OffSec
 
-https://www.offensive-security.com/information-security-training/penetration-testing-training-kali-linux/
+(https://www.offensive-security.com/information-security-training/penetration-testing-training-kali-linux/)
 https://support.offensive-security.com/#!pwk-reporting.md
 https://forums.offensive-security.com/
 https://www.exploit-db.com/
