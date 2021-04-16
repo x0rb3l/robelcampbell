@@ -33,7 +33,7 @@ A list of bookmarks I have used since I started my journey in cyber security.
 [It-Ovid Blogspot - Windows Privesc](http://it-ovid.blogspot.com/2012/02/windows-privilege-escalation.html)
 [Hacking and Security - OSCP Windows Priv Esc](http://hackingandsecurity.blogspot.com/2017/09/oscp-windows-priviledge-escalation.html)
 [Fuzzysecurity Tutorials 16](http://www.fuzzysecurity.com/tutorials/16.html)
-[Toshellandback]https://toshellandback.com/2015/11/24/ms-priv-esc/
+[Toshellandback](https://toshellandback.com/2015/11/24/ms-priv-esc/)
 
 #### CheatSheets
 
@@ -209,13 +209,13 @@ A list of bookmarks I have used since I started my journey in cyber security.
 [peerlyst resources](https://www.peerlyst.com/posts/the-best-resources-for-learning-exploit-development?utm_source=share_via&utm_medium=Application_Share&utm_content=peerlyst_post&utm_campaign=peerlyst_shared_post)
 [Ired.team](https://ired.team/)
 
-#### WindowsExploitation)
+#### WindowsExploitation
 
 [SMBGhost pre auth RCE](https://ricercasecurity.blogspot.com/2020/04/ill-ask-your-body-smbghost-pre-auth-rce.html?m=1)
 [SMB BleedingGhost writeup](https://blog.zecops.com/vulnerabilities/smbleedingghost-writeup-chaining-smbleed-cve-2020-1206-with-smbghost/)
 [OSR.com](https://www.osr.com/seminars/software-drivers/)
 
-### Qemu)
+### Qemu
 
 [PPC OSX on quemu for windows](https://www.emaculation.com/doku.php/ppc-osx-on-qemu-for-windows)
 [cdimage.ubuntu.com](http://cdimage.ubuntu.com/lubuntu/releases/16.04/release/)
@@ -224,19 +224,19 @@ A list of bookmarks I have used since I started my journey in cyber security.
 [Some RISC based images](https://drive.google.com/drive/folders/107uMlL_DS8yD2TS_0yrHXBDnLOj44a8P)
 [Hugsy - cemu](https://github.com/hugsy/cemu)
 
-### Microcontrollers and SDRs)
+### Microcontrollers and SDRs
 
 [nyan-sat.com](https://nyan-sat.com/chapter0.html)
 
-### GNURadio)
+### GNURadio
 
 [GNU Radio Wiki](https://wiki.gnuradio.org/index.php/Main_Page#Getting_started)
 [GNU Radio Tutorials](https://wiki.gnuradio.org/index.php/Tutorials)
 
-### EmbeddedProgramming)
+### EmbeddedProgramming
 
 [Udemy course](https://www.udemy.com/user/kiran-nayak-2/)
 
-### WebSecAcademy)
+### WebSecAcademy
 
 [WebSec Academy](https://portswigger.net/web-security)
