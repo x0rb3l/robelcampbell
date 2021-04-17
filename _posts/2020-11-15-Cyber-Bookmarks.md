@@ -295,7 +295,7 @@ A list of bookmarks I have used since I started my journey in cyber security.
 [Stacktrac3 - OSCE Review](https://stacktrac3.co/osce-review-ctp-course/)
 
 
-#### LinuxExploitation)
+#### LinuxExploitation
 
 [Linux Kernel Exploitation](https://github.com/xairy/linux-kernel-exploitation)
 
