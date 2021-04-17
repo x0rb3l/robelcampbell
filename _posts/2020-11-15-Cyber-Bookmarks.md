@@ -14,9 +14,9 @@ tags:
   - help
 ---
 
-A list of bookmarks I have used since I started my journey in cyber security.
+A list of bookmarks I have used since I started my journey in cyber security. Some old, some new. I hope you find it of use.
 
-*NOTE: Some links may be broken and they are listed from left to right.*
+*NOTE: Some links may be broken and out of place.*
 
 ### PenetrationTesting
 
