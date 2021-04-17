@@ -33,27 +33,46 @@ A list of bookmarks I have used since I started my journey in cyber security.
 #### WindowsPrivilegeEscalation
 
 [netbiosX blog - Windows Privesc](https://github.com/netbiosX/Checklists/blob/master/Windows-Privilege-Escalation.md)
+
 [It-Ovid Blogspot - Windows Privesc](http://it-ovid.blogspot.com/2012/02/windows-privilege-escalation.html)
+
 [Hacking and Security - OSCP Windows Priv Esc](http://hackingandsecurity.blogspot.com/2017/09/oscp-windows-priviledge-escalation.html)
+
 [Fuzzysecurity Tutorials 16](http://www.fuzzysecurity.com/tutorials/16.html)
+
 [Toshellandback](https://toshellandback.com/2015/11/24/ms-priv-esc/)
+
 
 #### CheatSheets
 
 [Netsec](https://netsec.ws/?p=337)
+
 [Netsec](https://netsec.ws/?p=331)
+
 [MSF Venom Cheat Sheet](http://security-geek.in/2016/09/07/msfvenom-cheat-sheet/)
+
 [Graceful Security Path Traversal Linux](https://www.gracefulsecurity.com/path-traversal-cheat-sheet-linux/)
+
 [Graceful Security Path Traversal Windows](https://www.gracefulsecurity.com/path-traversal-cheat-sheet-windows/)
+
 [Pentestmonkey - Reverse shell cheat sheet](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
+
 [Tipstrickshack - Bypassing filter to traversal](https://tipstrickshack.blogspot.com/2013/02/how-to-bypassing-filter-to-traversal_8831.html)
+
 [Rebootuser](https://www.rebootuser.com/?p=1623)
+
 [Speakerdeck - Escape from shellcatraz](https://speakerdeck.com/knaps/escape-from-shellcatraz-breaking-out-of-restricted-unix-shells?slide=9)
+
 [Common Web Services](https://xapax.gitbooks.io/security/content/common_web-services.html)
+
 [Nmap cheat sheet](https://highon.coffee/blog/nmap-cheat-sheet/)
+
 [Haklukes Ultimate OSCP guide](https://medium.com/@lodestarluke/haklukes-ultimate-oscp-guide-part-3-practical-hacking-tips-and-tricks-c38486f5fc97)
+
 [0daysecurity - Enumeration](http://www.0daysecurity.com/penetration-testing/enumeration.html)
+
 [Acheremisov - OSCP Survival Guide](https://blog.acheremisov.com/docs/OSCP-Survival-Guide.pdf)
+
 
 #### SQLinjection
 
