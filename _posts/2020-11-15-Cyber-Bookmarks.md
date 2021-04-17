@@ -16,7 +16,7 @@ tags:
 
 A list of bookmarks I have used since I started my journey in cyber security.
 
-*NOTE: Some links may be broken or out of place.*
+*NOTE: Some links may be broken and they are listed from left to right.*
 
 ### PenetrationTesting
 
