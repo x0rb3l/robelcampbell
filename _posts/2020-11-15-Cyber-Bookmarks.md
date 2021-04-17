@@ -23,8 +23,11 @@ A list of bookmarks I have used since I started my journey in cyber security.
 #### OffSec
 
 [Offsec.com](https://www.offensive-security.com/information-security-training/penetration-testing-training-kali-linux/)
+
 [Offsec Support](https://support.offensive-security.com/#!pwk-reporting.md)
+
 [Offsec Forums](https://forums.offensive-security.com/)
+
 [Exploit DB](https://www.exploit-db.com/)
 
 #### WindowsPrivilegeEscalation
