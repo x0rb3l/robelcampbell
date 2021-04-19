@@ -18,7 +18,7 @@ After a bit of a hiatus from studying for certifications, I became interested in
 
 Fortunately, my employer paid for the bundle and I decided to start with AWAE (Advanced Web Attacks and Exploitation) which comes with an exam voucher for the OSWE (Offensive Security Web Expert). 
 
-This time in my career I had a pretty solid foundation in web application hacking by doing bug bounties, however, I felt that I needed a more in-depth understanding and I wanted more experience in white box testing i.e source code review. AWAE takes the white box approach to hacking a web application and takes it all the way to remote code execution.
+At this time in my career I had a pretty solid foundation in web application hacking through bug bounties, however, I felt that I needed a more in-depth understanding and I wanted more experience in white box testing i.e source code review. AWAE takes the white box approach to hacking a web application and takes it from authentication bypass to remote code execution.
 
 ### Prep
 Before starting the course, I used [Z-r0crypt's](https://z-r0crypt.github.io/blog/2020/01/22/oswe/awae-preparation/) blog which has a solid listing of resources to go over before and after the course.
