@@ -53,6 +53,15 @@ do
 done
 ```
 
+### Additional Resources
+[regex101](https://regex101.com/)
+[Python Requests Library](https://docs.python-requests.org/en/master/)
+[Security Knowledge Framework](https://securityknowledgeframework.org/)
+[SQL Injection Cheat Sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+[Blind SQL Injection](https://portswigger.net/web-security/sql-injection/blind)
+[CVE-2016-2555](https://github.com/shadofren/CVE-2016-2555/blob/08a3b8ac03c06bbf0ffb06101b2de6f7aaa24a24/CVE-2016-2555.py)
+
+
 ### Conclusion
 I know some reviews go into much more detail but I really just wanted to share a few tips and resources I used for this exam. I hope this was informative and helped someone with their studies.
 
