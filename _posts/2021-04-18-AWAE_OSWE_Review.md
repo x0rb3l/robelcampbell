@@ -43,7 +43,14 @@ I was presented with a couple of target web applications and specific instructio
 - Make sure you take really good notes during the course and document/backup all of your proof-of-concept code. I used One Note for my note taking but recently started using [Obsidian](https://obsidian.md/) (using it for ETBD/OSEP right now) and I like it a lot better. I ran a script from my Windows host machine through WSL that copied all work files from my Kali instance, zipped it up and saved it on my One Drive using scp. This is just in case your Kali vm crashes and you lose all your work. Below is the script I made:
 
 ```bash
+#!/bin/bash
 
+while :
+do
+        scp -r kali@kaliIP:~/awae "/<destination path>";
+        tar -cvzf "/<dst path>/awae_zipped.gz" --remove-files "/<dst path>/awae";
+        sleep 1h
+done
 ```
 
 ### Conclusion
