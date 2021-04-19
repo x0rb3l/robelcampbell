@@ -47,8 +47,8 @@ I was presented with a couple of target web applications and specific instructio
 
 while :
 do
-        scp -r kali@kaliIP:~/awae "/<destination path>";
-        tar -cvzf "/<dst path>/awae_zipped.gz" --remove-files "/<dst path>/awae";
+        scp -r kali@kali:~/awae "/<destination path>";
+        tar -cvzf "/<destination path>/awae_zipped.gz" --remove-files "/<destination path>/awae";
         sleep 1h
 done
 ```
