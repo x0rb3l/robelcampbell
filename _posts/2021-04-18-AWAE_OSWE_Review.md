@@ -12,7 +12,7 @@ tags:
 ---
 ![image](https://github.com/x0rb3l/robelcampbell/blob/master/assets/images/oswe_passing_email.png?raw=true)
 
-After a bit of a hiatus from studying for certifications, I became interested in the new certification [bundle](https://www.offensive-security.com/courses-and-certifications/bundles/) by Offensive Security. The new OSCE3 consists of passing OSWE, OSEP, and OSED. 
+After a bit of a hiatus from studying for certifications, I became interested in the new certification [bundle](https://www.offensive-security.com/courses-and-certifications/bundles/) by Offensive Security. The new OSCE3 is obtained by passing OSWE, OSEP, and OSED. I am already an OSCE but it's outdated now and I felt the need to get the new one since I like to stay relevant and I'm up for the challenge.
 
 ![image](https://raw.githubusercontent.com/x0rb3l/robelcampbell/master/assets/images/offsec_bundle.png)
 
