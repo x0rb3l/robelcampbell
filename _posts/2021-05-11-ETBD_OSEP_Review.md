@@ -22,13 +22,13 @@ ETBD focuses on breaching a corporate network perimeter, bypassing various antiv
 ### Prep
 There wasn't a lot of prep-work for this one. I did use a few articles to gain a better understanding of what to expect with the course materials and exam. Here are a few:
 
-- https://github.com/deletehead/pen_300_osep_prep
-- https://spaceraccoon.dev/offensive-security-experienced-penetration-tester-osep-review-and-exam
-- https://casvancooten.com/posts/2021/03/getting-the-osep-certification-evasion-techniques-and-breaching-defenses-pen-300-course-review/
+- [pen_300_osep_prep](https://github.com/deletehead/pen_300_osep_prep)
+- [offensive-security-experienced-penetration-tester-osep-review-and-exam](https://spaceraccoon.dev/offensive-security-experienced-penetration-tester-osep-review-and-exam)
+- [getting-the-osep-certification-evasion-techniques-and-breaching-defenses-pen-300-course-review](https://casvancooten.com/posts/2021/03/getting-the-osep-certification-evasion-techniques-and-breaching-defenses-pen-300-course-review/)
 
 I also used another resource which was probably my number one go-to blog when I needed some quick references (thank you [@CasvCooten](https://casvancooten.com/about/)):
 
-- https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/
+- [windows-active-directory-exploitation-cheat-sheet-and-command-reference](https://casvancooten.com/posts/2020/11/windows-active-directory-exploitation-cheat-sheet-and-command-reference/)
 
 ### The Course
 The course materials are almost twice as long as AWAE, with some 700+ pages and includes a separate lab instance for each module you work through to help you practice what you just learned. 
@@ -46,7 +46,7 @@ The exam simulates a real corporate network with a specific goal of obtaining ei
 
 I have read many posts saying they were able to clear the objectives in about 8-9 hours, however, it took me about 22 hours to obtain enough points to pass and capture the *secret.txt* flag. I'll admit that there were some things that threw me for a loop and I was stuck a lot longer than I had wished but the exam is not tricky and does not contain any surprises. I definitely had to exercise some of my OSCP muscles while taking this one.
 
-As I went through the exam, I took notes and screenshots to reduce time on writing the report. I wanted to use Obsidian but I decided to use VSCode instead with some additional plugins so I could create my report using this Offensive Security exam report template: https://github.com/noraj/OSCP-Exam-Report-Template-Markdown. VSCode allowed me to have a split screen to see the editor and markdown rendering without switching screens or pressing hot-keys. I did use Obsidian to take general machine notes as I pwned each one.
+As I went through the exam, I took notes and screenshots to reduce time on writing the report. I wanted to use Obsidian but I decided to use VSCode instead with some additional plugins so I could create my report using this Offensive Security exam report template: [OSCP-Exam-Report-Template-Markdown](https://github.com/noraj/OSCP-Exam-Report-Template-Markdown). VSCode allowed me to have a split screen to see the editor and markdown rendering without switching screens or pressing hot-keys. I did use Obsidian to take general machine notes as I pwned each one.
 
 I actually enjoyed taking the exam and I most definitely learned a few things along the way. 
 
