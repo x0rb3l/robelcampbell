@@ -53,7 +53,7 @@ I actually enjoyed taking the exam and I most definitely learned a few things al
 ### Tips
 - Do all the challenge labs and take good notes.
 - Try and do all the extra miles if possible
-- Save all of your code. Throughout the course you will be crafting your own payloads and tweaking them. Make sure you hold on to them and back them up as you will be using theses on the exam.
+- Save all of your code. Throughout the course you will be crafting your own payloads and tweaking them. Make sure you hold on to them and back them up as you will be using these on the exam.
 - Everything you need to know is in the course materials. I think Offsec's new model of training really helps students with having all the necessary knowledge to succeed.
 
 ### Conclusion
