@@ -25,7 +25,7 @@ tags:
 
 In my last two posts, I discussed my experience with AWAE/OSWE and ETBD/OSEP and how they are two of the trinity in obtaining the coveted *OSCE<sup>3</sup>* certification. This post is aimed at discussing my experience with the third and final course: *Windows User Mode Exploit Development* (WUMED) and *Offensive Security Exploit Developer* (OSED) exam. I will also briefly discuss the motivation behind obtaining all three certs within a six-month period.
 
-WUMED focuses on identifying vulnerabilites through reverse engineering Windows applications that run in user mode. It takes it a step beyond regular stack based overflows and teaches you how to bypass common mitigations such as ASLR and DEP. It also teaches you how to create your own custom 32-bit shellcode.
+WUMED focuses on identifying vulnerabilites through reverse engineering Windows applications that run in user mode. It takes it a step beyond regular stack-based overflows and teaches you how to bypass common mitigations such as ASLR and DEP. It also teaches you how to create your own custom 32-bit shellcode.
 
 You can find out more in the course [syllabus](https://www.offensive-security.com/documentation/EXP301-syllabus.pdf). 
 
@@ -36,12 +36,12 @@ I came into the course already very familiar with debuggers, reverse engineering
 
 I tried to refresh some of my legacy CTP/OSCE skills in my home lab by replicating  some of the exploits for the applications used in the WUMED course syllabus. I didn't spend too much time doing this but I did play a little bit with the stack overflow vulnerability found in the Sync Breeze module.
 
-The only other prep I can think of is getting comforable Windbg as this is used throughout the course and is expected of you to use in the exam. There is a whole chapter dedicated to it and I created a little cheat sheet for reference when I couldn't remember specific syntax for a command. Here is a link to the cheat sheet : [Windbg Cheat Sheet](https://github.com/x0rb3l/osed_windbg_cheat_sheet/blob/44582051e58e46445dc75de378ad41a67a0631f8/windbg_cheat_sheet.md)
+The only other prep I can think of is getting comfortable with Windbg as this is used throughout the course and is expected of you to use in the exam. There is a whole chapter dedicated to it and I created a little cheat sheet for reference when I couldn't remember specific syntax for a command. Here is a link to the cheat sheet : [Windbg Cheat Sheet](https://github.com/x0rb3l/osed_windbg_cheat_sheet/blob/44582051e58e46445dc75de378ad41a67a0631f8/windbg_cheat_sheet.md)
 
 ### The Course
 The course materials come with a 600+ page pdf and videos for each module. I thought the training was once again top notch. Offsec doesn't just teach you what you need to know to pass the exam, they go in depth about different topics such as creating custom shellcode, process structures and their purpose, the *Structure Exception Handling* process, etc... 
 
-As always they provide you with plenty of extra mile exercises that test your understanding of the module you just completed. I suggest doing as many extra miles as possible in this course because it helps work out a lot of the little nuances you come across in exploit development, such as stack alignment and read/write protections. There are also several challenge exercises that I would suggest completing if possible. I was only able to complete 2 out of the 3 challenges which, in my experience, was enough since I did most of the extra mile exercises. Your mileage may vary.
+As always, they provide you with plenty of extra mile exercises that test your understanding of the module you just completed. I suggest doing as many extra miles as possible in this course because it helps work out a lot of the little nuances you come across in exploit development, such as stack alignment and read/write protections. There are also several challenge exercises that I would suggest completing if possible. I was only able to complete 2 out of the 3 challenges which, in my experience, was enough since I did most of the extra mile exercises. Your mileage may vary.
 
 I have seen in the official Offsec discord many people complaining about the lack of 64-bit exploitation and how this course doesn't really prepare you for AWE/OSEE even though it is stated as such on the Offsec website. In my opinion, the argument makes some sense in that Offsec could make multiple exploit development courses and go into topics like 64-bit exploitation and exploiting the heap which would in fact prepare you better for AWE/OSEE, however, I think there is a fair amount of preparatory resources available to folks online that want to take on the AWE course and OSEE exam. I am of the opinion that you really learn something when you are forced to do your own research. The website simply states that WUMED "...serves to build a solid foundation for students wanting too pursue AWE." which I interpret as the bare minimum before starting AWE.
 
@@ -52,7 +52,7 @@ You are given a set of assignments to accomplish, each with specific criteria. F
 
 Don't make the mistake I made of skipping parts of the course material. I decided to jump over different parts of the course thinking that A.) it either wasn't on the exam or B.) that I already knew enough about it. It ended up costing me precious time in the exam and I ended having to "learn on the job". Its no fun being blindsided with a task and having to go study it while the clock is ticking.
 
-Despite dealing with this and my washing machine's hose popping off while running which leaked water all in the room upstairs, I managed to get 2 out of the 3 assignments complete with 10 hours to spare.
+Despite dealing with this, and my washing machine's hose popping off while running (which leaked water all in the room upstairs), I managed to get 2 out of the 3 assignments complete with 10 hours to spare.
 
 I found out that I work really well under pressure. Must be all that wrestling I did growing up.
 
@@ -77,6 +77,6 @@ Of course, none of this would have been possible without my amazing wife. Despit
 ### Conclusion
 This whole experience was really tough but highly rewarding and I thank God for graciously providing me with the ability to accomplish it.
 
-What's next? I will definitely be taking a long break from any type of certification as I ramp up for this deployment. Lately I have been trying to decide what I really want to specialize in and I think I am leaning towards IoT and embedded security. I just purchased the book [Practical IoT Hacking](https://nostarch.com/practical-iot-hacking) and so far its pretty awesome. I have already done a little bit hardware hacking and firmware reverse engineering and hopefully I can do more security research blog post in the near future.
+What's next? I will definitely be taking a long break from any type of certification as I ramp up for this deployment. Lately I have been trying to decide what I really want to specialize in and I think I am leaning towards IoT and embedded security. I just purchased the book [Practical IoT Hacking](https://nostarch.com/practical-iot-hacking) and so far its pretty awesome. I have already done a little bit hardware hacking and firmware reverse engineering and hopefully I can do more security research blog posts in the near future.
 
 God bless
