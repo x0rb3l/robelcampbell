@@ -87,6 +87,9 @@ author:
     - label: "Discord"
       icon: "fab fa-fw fa-discord"
       url: "https://discordapp.com/users/520053551578218499"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/RobelCampbell"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:robel.y.campbell@gmail.com
