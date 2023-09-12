@@ -76,7 +76,7 @@ plugins:
 author:
   name   : "Robel Campbell"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Reverse Engineer, Exploit Developer\nOSCE3,OSED,OSEP,OSWE,OSCE\nOSCP,GREM"
+  bio    : "Reverse Engineer, Exploit Developer\nOSEE,OSCE3,OSED,OSEP,OSWE,\nOSCE,OSCP,GREM"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
